@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((`echo $RATH | GREP -O ":/" | wc -l`+ 1))
